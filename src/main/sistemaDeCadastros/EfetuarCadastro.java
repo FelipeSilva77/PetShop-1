@@ -27,7 +27,7 @@ public class EfetuarCadastro {
 	double tamanho;
 	
 	public Cadastro realizarCadastro() throws CadastroNaoPermitido, CadastroNaoExiste {
-		System.out.println("Digite o n�mero do cadastro:");
+		System.out.println("Digite o numero do cadastro:");
 		numeroDaConta = scan.nextInt();
 		resultado=verificaCadastro.criarCadastro(numeroDaConta);
 		if(resultado==false) {
