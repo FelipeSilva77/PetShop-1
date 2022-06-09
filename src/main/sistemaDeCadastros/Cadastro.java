@@ -4,8 +4,8 @@ public class Cadastro {
 
 	private int numero;
 	
-	public Cadastro(int numero) {
-		this.numero = numero;
+	public Cadastro(int newnumero) {
+		this.numero = newnumero;
 	}
 	
 	public int getNumero() {
